@@ -1,7 +1,8 @@
 class ChocolateBoiler {
-  private static uniqueInstance: ChocolateBoiler | null = null;
   private empty: boolean;
   private boiled: boolean;
+
+  private static uniqueInstance: ChocolateBoiler;
 
   private constructor() {
       this.empty = true;

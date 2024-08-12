@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "ts-node src/Chapter05/ChocolateBoiler.ts"
+    "start": "ts-node src/Chapter07/DuckAdapter.ts && ts-node src/Chapter07/HomeTheaterFacade.ts"
   },
   "author": "jerry",
   "license": "ISC",
